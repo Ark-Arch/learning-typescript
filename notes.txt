@@ -1,0 +1,39 @@
+typescript is a superscript of javascript.
+it simply catches errors while writing my code.
+
+why typescript
+- write javscript with much less errors
+- if the codebase is a much.
+
+IT IS ALL ABOUT TYPE SAFETY.
+
+WHAT TYPESCRIPT IS NOT
+- is not a new programming language
+- 
+
+WHAT TYPESCRIPT
+- it is for static checking. it analyses the code as we write.
+- you actually write more code with typescript.
+
+typescript is being transpired into javscript.
+
+TYPESCRIPT IS A DEVELOPMENT TOOL!. My application still runs on pure javscript.
+
+TYPES IN TYPESCRIPT
+number
+string
+boolean
+null
+undefined
+void
+object
+array
+tuples
+*any
+never 
+unknown
+
+SITUATIONS?
+
+SYNTAX:
+let variableName: type = value
