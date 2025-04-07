@@ -1,6 +1,14 @@
-let greetings: string = "Hello David"
+// number
+let userId: number = 33455
 
-let mynum = 8
+// boolean
+let isLoggedIn: boolean = false
 
-console.log(greetings)
+// writing the any type
 
+let hero: any;
+function getHero(){
+    return true
+}
+
+hero = getHero()
