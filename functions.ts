@@ -20,4 +20,29 @@ let loginUser = (name: string, email: string, isPaid: boolean = false) => {
 
 }
 
+
+function getValue(myVal: number): boolean|string{
+    if (myVal > 5) {
+        return true
+    } else {
+        return "200 OK"
+    }
+}
+
+const heros = ["thor", "spiderman", "ironman"]
+heros.map((e):string => {
+    return e.toUpperCase()
+})
+
+function consoleError(errmsg: string): void{
+    console.log(errmsg)
+}
+
+function handleError(errmsg: string): never{
+    throw new Error(errmsg) // this would throw an errow, but would not read the value
+}
+
+
+
+
 export {loginUser}
